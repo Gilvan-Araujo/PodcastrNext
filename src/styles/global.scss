@@ -5,17 +5,19 @@
 }
 
 :root {
-    --white: #fff;
-    --gray-50: #f7f8fa;
-    --gray-100: #e6e8eb;
-    --gray-200: #afb2b1;
-    --gray-500: #808080;
-    --gray-800: #494d4b;
-    --green-500: #04d361;
-    --purple-300: #9f75ff;
-    --purple-400: #9164fa;
-    --purple-500: #8257e5;
-    --purple-800: #6f48c9;
+    --white: hsl(0, 0%, 100%);
+    --gray-500: hsl(0, 0%, 50%);
+    --black: hsl(0, 0%, 0%);
+    --green: hsl(150, 100%, 50%);
+    --blue-100: hsl(210, 100%, 90%);
+    --blue-200: hsl(210, 100%, 80%);
+    --blue-300: hsl(210, 100%, 70%);
+    --blue-400: hsl(210, 100%, 60%);
+    --blue-500: hsl(210, 100%, 50%);
+    --blue-600: hsl(210, 100%, 40%);
+    --blue-700: hsl(210, 100%, 30%);
+    --blue-800: hsl(210, 100%, 20%);
+    --blue-900: hsl(210, 100%, 10%);
 }
 
 @media (max-width: 1080px) {
@@ -31,7 +33,7 @@
 }
 
 body {
-    background: var(--gray-50);
+    background: var(--blue-900);
 }
 
 body,
@@ -39,7 +41,7 @@ input,
 textarea,
 button {
     font: 500 1rem Inter, sans-serif;
-    color: var(--gray-500);
+    color: var(--blue-100);
 }
 
 h1,
@@ -50,7 +52,7 @@ h5,
 h6 {
     font-weight: 600;
     font-family: Lexend, sans-serif;
-    color: var(--gray-800);
+    color: var(--blue-200);
 }
 
 h1 {
